@@ -1,16 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/scss/style.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nebula | Home</title>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Eczar:wght@700&family=Nunito&display=swap" />
+		<link rel="stylesheet" href="./css/scss/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<!-- <i class="branding__hamburger fa-solid fa-bars"></i> -->
+			<h1 class="caption">Nebula</h1>
+			<a href="{{url_for('login')}}" class="login-button"
+				>Login With Discord</a
+			>
+		</header>
 
+		<div class="main-content">
+			<div class="top-section">
+				<div class="top-caption">
+					<p>Why Nebula?</p>
+				</div>
+				<div class="top-description">
+					<p
+						>Nebula is a versatile Discord bot designed to elevate
+						your server's functionality and make your Discord
+						experience more enjoyable. With a wide range of commands
+						at your disposal, Nebula is your go-to bot for
+						everything from moderation to giveaways and more.</p
+					>
+				</div>
+				<div class="buttons">
+					<a
+						href="https://discord.com/api/oauth2/authorize?client_id=1071722897850236999&permissions=1634033200382&scope=applications.commands%20bot"
+						>Add To Server</a
+					>
+					<a href="https://discord.gg/GzbP3b5KDn">Support Server</a>
+				</div>
+			</div>
+			<div class="features">
+				<div class="theme">
+					<div class="caption">
+						<p>Moderation</p>
+					</div>
+					<div class="description">
+						<p
+							>Nebula's moderation features are designed to help
+							keep your server safe and under control. Whether you
+							need to kick or ban a member, mute someone for a
+							period of time, or simply manage your server's
+							channels and permissions, Nebula has you covered.</p
+						>
+					</div>
+				</div>
+				<div class="theme">
+					<div class="caption">
+						<p>Tickets</p>
+					</div>
+					<div class="description">
+						<p
+							>Nebula's ticket system allows users to create
+							support tickets for assistance. Users can easily
+							submit their issues or questions, and your staff
+							members can efficiently manage and respond to them,
+							ensuring a smooth support experience for your
+							server.</p
+						>
+					</div>
+				</div>
+				<div class="theme">
+					<div class="caption">
+						<p>Message Levels</p>
+					</div>
+					<div class="description">
+						<p
+							>With Nebula's message levels feature, you can set
+							up different message levels for roles within your
+							server. This allows users to progress and unlock
+							additional features or privileges based on their
+							activity and engagement in the community. Keep your
+							members motivated and reward them for their
+							contributions.</p
+						>
+					</div>
+				</div>
+				<div class="theme">
+					<div class="caption">
+						<p>Welcome Messages</p>
+					</div>
+					<div class="description">
+						<p
+							>With Nebula's welcome message feature, you can
+							easily set up custom welcome messages in your server
+							to create a personalized and warm experience for new
+							members. As soon as someone joins your server, they
+							will be greeted with your custom message.
+						</p>
+					</div>
+				</div>
+				<div class="theme">
+					<div class="caption">
+						<p>Youtube Notifications</p>
+					</div>
+					<div class="description">
+						<p
+							>Nebula's youtube notifications module enables you
+							to recieve alerts whenever you or your favourite
+							Youtubers upload a new video. Stay up-to-date with
+							the latest content and never miss a video from your
+							favourite creators.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="statistics-container">
+				<div class="theme">
+					<div class="caption">
+						<p>Statistics</p>
+					</div>
+					<div class="statistics">
+						<div class="number-box"
+							><p>Uses: </p>
+							<div class="numbers" id="uses">+000000</div>
+						</div>
+						<div class="number-box"
+							><p>Servers: </p>
+							<div class="numbers" id="servers">+000000</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-
-    <script src="./js/main.js"></script>
-</body>
+		<script src="./js/main.js"></script>
+	</body>
 </html>
